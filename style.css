@@ -30,3 +30,8 @@ img{
     align-items: center;
     opacity: 90%;
 }
+
+button:hover{
+    background: rgba(250, 235, 215, 0.58);
+    border-radius: 50%;
+}
