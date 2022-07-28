@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -60,13 +61,37 @@ main{
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: rgba(44, 49, 42, 0.452);
     padding: 70px;
 }
 
+li{
+    list-style: none;
+    padding: 15px;
+}
+
+#footer-menu-item{
+    display: flex;
+    color: rgba(155, 116, 194, 0.55);
+    border-radius: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant', serif;
+}
+
+#footer-menu-item:hover{
+    background: rgba(75, 81, 65, 0.382);
+}
+
 h5{
     font-family: 'Cormorant', serif;
     color: rgba(168, 223, 150, 0.692);
+}
+
+ul{
+    display: flex;
 }
