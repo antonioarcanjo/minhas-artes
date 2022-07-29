@@ -4,12 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 body{
     background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75));
     display: block;
+}
+
+header{
+    background: rgba(44, 49, 42, 0.452);
 }
 
 h1{
@@ -18,41 +21,36 @@ h1{
     padding-bottom: 40px;
     font-family: 'Cormorant SC', serif;
     color: rgba(168, 223, 150, 0.692);
-    font-size: 3rem;
+    font-size: 64px;
     font-weight: bold;
-    background: rgba(44, 49, 42, 0.452);
 }
 
 h2{
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px;
     font-family: 'Cormorant SC', serif;
     color: rgba(168, 223, 150, 0.692);
-    font-size: 3rem;
+    font-size: 20px;
     font-weight: bold;
 }
 
 p{
     text-align: center;
     padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: 'Cormorant SC', serif;
     color: rgba(168, 223, 150, 0.692);
     font-size: 1.5rem;
 }
 
 img{
-    width: 300px;
+    width: 250px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
     align-items: center;
-}
-
-button:hover{
-    background: rgba(117, 126, 116, 0.382);
-    border-radius: 50%;
 }
 
 main{
@@ -61,22 +59,24 @@ main{
 
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
     background: rgba(44, 49, 42, 0.452);
-    padding: 70px;
+    margin-top: 112px;
+    padding: 20px;
 }
 
 li{
     list-style: none;
     padding: 15px;
+    text-align: center;
 }
 
 #footer-menu-item{
     display: flex;
     color: rgba(155, 116, 194, 0.55);
     border-radius: 25px;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -94,4 +94,10 @@ h5{
 
 ul{
     display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-menu-item a{
+    text-decoration: none;
+    color: rgba(82, 210, 39, 0.692);
 }
