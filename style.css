@@ -7,20 +7,21 @@
 }
 
 body{
-    background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75));
+    background: linear-gradient(rgba(62, 29, 101, 0.75), rgba(12, 11, 31, 0.638));
     display: block;
 }
 
+
 header{
-    background: rgba(44, 49, 42, 0.452);
+    background: rgba(26, 55, 57, 0.603);
 }
 
 h1{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-family: 'Cormorant SC', serif;
-    color: rgba(168, 223, 150, 0.692);
+    font-family: 'Righteous', cursive;
+    color: rgba(150, 223, 215, 0.692);
     font-size: 64px;
     font-weight: bold;
 }
@@ -28,8 +29,8 @@ h1{
 h2{
     text-align: center;
     padding: 70px;
-    font-family: 'Cormorant SC', serif;
-    color: rgba(168, 223, 150, 0.692);
+    font-family: 'Righteous', cursive;
+    color: rgba(150, 223, 215, 0.692);
     font-size: 20px;
     font-weight: bold;
 }
@@ -39,8 +40,8 @@ p{
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: 'Cormorant SC', serif;
-    color: rgba(168, 223, 150, 0.692);
+    font-family: 'Righteous', cursive;
+    color: rgba(150, 223, 215, 0.692);
     font-size: 1.5rem;
 }
 
@@ -59,11 +60,11 @@ main{
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background: rgba(44, 49, 42, 0.452);
-    margin-top: 112px;
+    background: rgba(26, 55, 57, 0.603);
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -80,16 +81,18 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Cormorant', serif;
+    font-family: 'Righteous', cursive;
 }
 
 #footer-menu-item:hover{
-    background: rgba(75, 81, 65, 0.382);
+    background: rgba(44, 54, 54, 0.732);
 }
 
 h5{
-    font-family: 'Cormorant', serif;
-    color: rgba(168, 223, 150, 0.692);
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgba(150, 223, 218, 0.692);
+    padding-top: 30px;
 }
 
 ul{
@@ -99,5 +102,25 @@ ul{
 
 #footer-menu-item a{
     text-decoration: none;
-    color: rgba(82, 210, 39, 0.692);
+    color: rgba(39, 210, 170, 0.692);
+}
+
+/*Barra de Rolagem*/
+/*Fundo que corre*/
+::-webkit-scrollbar-track{
+    background-color: rgb(155, 145, 229);
+}
+
+/*Fundo que corre*/
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(155, 145, 229);
+}
+
+/*Linha que desce*/
+
+::-webkit-scrollbar-thumb{
+    background: rgb(23, 21, 41);
+    border-radius: 25px;
 }
